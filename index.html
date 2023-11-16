@@ -146,26 +146,25 @@
         <form action="" onsubmit="kirimPesan(); return false;">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Nama" />
+            <input type="text" id="nama" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="map-pin"></i>
-            <input type="text" placeholder="Alamat" />
+            <input type="text" id="alamat" placeholder="Alamat" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="No Hp" />
+            <input type="text" id="noHp" placeholder="No Hp" />
           </div>
           <div class="input-group">
             <i data-feather="message-circle"></i>
             <input
               type="text"
+              id="pesan"
               placeholder="Saya ingin pesan telur gulung original 10 tusuk"
             />
           </div>
-          <button type="button" class="btn" onclick="kirimPesan()">
-            Kirim Pesan
-          </button>
+          <button type="submit" class="btn">Kirim Pesan</button>
         </form>
       </div>
     </section>

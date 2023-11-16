@@ -37,8 +37,8 @@ function kirimPesan() {
   // Mengarahkan pengguna ke tautan WhatsApp dengan pesan yang dihasilkan
   console.log(
     "URL WhatsApp: ",
-    "https://wa.me/628198885434?text=" + encodeURIComponent(pesanWhatsApp)
+    "https://wa.me/6281938885434?text=" + encodeURIComponent(pesanWhatsApp)
   );
   window.location.href =
-    "https://wa.me/628198885434?text=" + encodeURIComponent(pesanWhatsApp);
+    "https://wa.me/6281938885434?text=" + encodeURIComponent(pesanWhatsApp);
 }
