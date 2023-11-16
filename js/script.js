@@ -22,7 +22,7 @@ function kirimPesan() {
   console.log("Tombol diklik");
   // Mengambil nilai dari setiap elemen formulir
   var nama = document.getElementById("nama").value;
-  var alamatEmail = document.getElementById("alamatEmail").value;
+  var alamat = document.getElementById("alamat").value;
   var noHp = document.getElementById("noHp").value;
   var pesan = document.getElementById("pesan").value;
 
